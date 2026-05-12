@@ -2,12 +2,12 @@ This is Linear regression model from scratch. I used AI tools to generate code b
 
 The first requirement for linear regression model is that there should be linear relationship between features. To find linear relationships we use formula
 
-           **Y_pred = Wx + b**
+          **Y_pred = Wx + b**
            
 where x in input feature and w is weight of feauter. We also one bias term allowing model to acurately fit data that does pass through origin. 
 Then we find differenc, known as error,  between acutal data and predicted data. Formula for difference is 
 
-           **Loss = 1/2(Y_pred - Y_actual)^2
+           **Loss = 1/2(Y_pred - Y_actual)^2**
 
 There are no of reasons for square. One of them is to convert negative error into positive. Then we have another term 1/2. We use this term to cancel square when we calculate derivative .  
 
