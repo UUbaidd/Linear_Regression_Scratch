@@ -19,7 +19,7 @@ We calculate derivative to find slope. It tells us wether to increase weights or
 
 For bias 
 
-   **derivative_Loss/derivative_b = -2/n(∑{i=1}^n (y(i)-y_predicted)**
+   **derivative_Loss/derivative_b = -2/n(∑{i=1}^n (y(i)-y_predicted)** 
 
 Once we have these weights, we update parameters using learning rate, for W it is represented by:
 
