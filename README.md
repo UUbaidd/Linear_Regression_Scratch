@@ -5,7 +5,7 @@ The prediction for a given sample is find by given formula:
    **$$Y_{pred} = WX + b$$**
            
 where x in input feature and w is weight of feauter. We also one bias term allowing model to acurately fit data that does pass through origin. 
-Then we find differenc, known as error,  between acutal data and predicted data. Formula for difference is 
+Then we find difference, known as error,  between acutal data and predicted data. Formula for difference is 
 
    **$$\text{Loss}_{\text{MSE}} = \frac{1}{2n} \sum_{i=1}^{n} (Y_{pred}^{(i)} - Y_{actual}^{(i)})^2$$** 
 
