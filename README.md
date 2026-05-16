@@ -39,7 +39,7 @@ where X is features , $${\mu}$$ is mean. $${\sigma}$$ is sign of standard deviat
 
 **Loss Functions:**
 
-In MSE, we minimize MSE to maximize likelihood solution of the model as noise follows gaussian distribuion, beel shape curve. If after training our model follows gaussian distribuiton then official our model is ok, all those things are noise. In same way for MAE, it follows liplace distribution, sharp peak and heavy tail.
+In MSE, we minimize MSE to maximize likelihood solution of the model as noise follows Gaussian distribution, bell shape curve. If,, after training our model,error follows gaussian distribuiton then officially our model is ok, all those things are noise. In same way for MAE, it follows liplace distribution, sharp peak and heavy tail.
 MSE formula is :
 
    **$$\text{Loss}_{\text{MSE}} = \frac{1}{2n} \sum_{i=1}^{n} (Y_{pred}^{(i)} - Y_{actual}^{(i)})^2$$**
