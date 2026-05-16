@@ -1,6 +1,6 @@
 This is Linear regression model from scratch. I used AI tools to generate code but I have fully deeply understadning for code. The file is completly human written. 
 
-The first requirement for linear regression model is that there should be linear relationship between features. To find linear relationships we use formula
+The prediction for a given sample is find by given formula:
 
    **$$Y_{pred} = WX + b$$**
            
@@ -9,7 +9,7 @@ Then we find differenc, known as error,  between acutal data and predicted data.
 
    **$$\text{Loss}_{\text{MSE}} = \frac{1}{2n} \sum_{i=1}^{n} (Y_{pred}^{(i)} - Y_{actual}^{(i)})^2$$** 
 
-There are no of reasons for square. One of them is to convert negative error into positive. Then we have another term 1/2. We use this term to cancel square when we calculate derivative .  
+There are number of reasons for square. One of them is to convert negative error into positive. Then we have another term 1/2. We use this term to cancel square when we calculate derivative . One main reason we would discuss in the section of loss function.  
 
    **Derivative:**
 
