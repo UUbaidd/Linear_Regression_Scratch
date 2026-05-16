@@ -35,7 +35,7 @@ Scaling is a process where we normalize our data. Because if we have two feature
 
    **$$x_{scaled} = \frac{x - \mu}{\sigma + \epsilon}$$**
 
-where X is features , mu is mean. delta is sign of standard deviation  and epsilion. We use epsilion to avoid NAN, becuase if SD becomes 0 then this will not work without epsilon.
+where X is features , $${\mu}$$ is mean. delta is sign of standard deviation  and epsilion. We use epsilion to avoid NAN, becuase if SD becomes 0 then this will not work without epsilon.
 
 **Loss Functions:**
 
